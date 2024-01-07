@@ -40,7 +40,9 @@ import Distributions:
     variate_form,
     value_support,
     component,
-    components
+    components,
+    kurtosis,
+    skewness
 
 export failprob,
     succprob,
@@ -66,7 +68,9 @@ export failprob,
     variate_form,
     value_support,
     component,
-    components
+    components,
+    kurtosis,
+    skewness
 
 import DomainSets: dimension, Domain
 
